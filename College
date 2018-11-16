@@ -1,0 +1,143 @@
+ public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in); 
+        System.out.println("What college you want to go?: ");
+        String cas = sc.next();
+        
+        
+        if(cas.equals("CAS")){
+            System.out.println("What program are you in?");
+            String cass = sc.next();
+            
+            if(cass.equals("Batchelor of Arts in English")){
+                System.out.println("You are with CAS in a BAE program.");   
+            }
+            else if (cass.equals("Bachelor of Arts in Political Science")){
+                System.out.println("You are with CAS in a BAE program.");  
+            }
+            else if (cass.equals("Bachelor of Arts in Communication")){
+                System.out.println("You are with CAS in a BAC program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Psychology")){
+                System.out.println("You are with CAS in a BSP program.");  
+            }
+            else {
+                System.out.println("Congratulations! You belong to CAS!");  
+            }
+        }
+        
+                
+        
+            else if(cas.equals("CBA")){
+            System.out.println("What program are you in?");
+            String cass = sc.next();
+            
+            if (cass.equals("Bachelor of Science in Business Administration")){
+                System.out.println("You are with CAS in a BSBA program.");   
+            }
+            else if (cass.equals("Bachelor of Science in Entrepreneurship")){
+                System.out.println("You are with CAS in a BSE program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Office Administration")){
+                System.out.println("You are with CAS in a BSOA program.");  
+            }
+            else {
+                System.out.println("Congratulations! You belong to CBA!"); 
+            }
+        }
+        
+            
+            
+            else if(cas.equals("CEA")){
+            System.out.println("What program are you in?");
+            String cass = sc.next();
+            
+            if (cass.equals("Bachelor of Science in Architecture")){
+                System.out.println("You are with CAS in a BSA program.");   
+            }
+            else if (cass.equals("Bachelor of Science in Civil Engineering")){
+                System.out.println("You are with CAS in a BSCE program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Computer Engineering")){
+                System.out.println("You are with CAS in a BSCE program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Electronics Engineering")){
+                System.out.println("You are with CAS in a BSEE program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Environmental & Sanitary Engineering")){
+                System.out.println("You are with CAS in a BSESE program.");  
+            }
+            else {
+                System.out.println("Congratulations! You belong to CEA!"); 
+            }
+        }
+        
+        
+        
+            else if(cas.equals("CITCS")){
+            System.out.println("What program are you in?");
+            String cass = sc.next();
+            
+            if (cass.equals("Bachelor of Science in Computer Science")){
+                System.out.println("You are with CAS in a BSCS program.");   
+            }
+            else if (cass.equals("Bachelor of Science in Information System")){
+                System.out.println("You are with CAS in a BSIS program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Information Technology")){
+                System.out.println("You are with CAS in a BSIT program.");  
+            }
+            else if (cass.equals("Associate in Computer Technology")){
+                System.out.println("You are with CAS in a ACT program.");  
+            }
+            else {
+                System.out.println("Congratulations! You belong to CITCS!"); 
+            }
+        }
+        
+            
+            
+            else if(cas.equals("CTE")){
+            System.out.println("What program are you in?");
+            String cass = sc.next();
+            
+            if (cass.equals("Bachelor of Science in Elementary Education - General")){
+                System.out.println("You are with CAS in a BSEE - Gen program.");   
+            }
+            else if (cass.equals("Bachelor of Science in Elementary Education")){
+                System.out.println("You are with CAS in a BSEE program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Secondary Education")){
+                System.out.println("You are with CAS in a BSSE program.");  
+            }
+            else {
+                System.out.println("Congratulations! You belong to CTE!"); 
+            }
+        }
+        
+            else if(cas.equals("COA")){
+            System.out.println("What program are you in?");
+            String cass = sc.next();
+            
+            if (cass.equals("Bachelor of Science in Accountancy")){
+                System.out.println("You are with CAS in a BSA program.");   
+            }
+            else if (cass.equals("Bachelor of Science in Accounting Technology")){
+                System.out.println("You are with CAS in a BSAT program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Management Accounting")){
+                System.out.println("You are with CAS in a BSMA program.");  
+            }
+            else if (cass.equals("Bachelor of Science in Forensic Accounting")){
+                System.out.println("You are with CAS in a BSFA program.");  
+            }
+            else {
+                System.out.println("Congratulations! You belong to COA!"); 
+           }
+        }else {
+                System.out.println("Sorry, we don't offer that program in our university. Please choose another program.");
+      
+        
+       
+        }
+    } //End of main
+} //End of class
